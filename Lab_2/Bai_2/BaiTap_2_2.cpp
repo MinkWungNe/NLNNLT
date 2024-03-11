@@ -52,11 +52,10 @@ int Ketqua()
 
 int main()
 {
-
-    cout << "Moi ban chon:\n";
-    cout << "1.Keo\n";
-    cout << "2.Bua\n";
-    cout << "3.Bao\n";
+    cout << "Moi ban chon:\n" 
+    << "1.Keo\n" 
+    << "2.Bua\n" 
+    << "3.Bao\n";
     cin >> n;
 
     PlayerChoose();
