@@ -38,15 +38,15 @@ int Ketqua()
 {
     if (n == bot)
     {
-        printf("Ban da hoa!");
+        printf("Ban da hoa!\n");
     }
     else if (n == 1 && bot == 2 || n == 2 && bot == 3 || n == 3 && bot == 1)
     {
-        printf("Ban da thua!");
+        printf("Ban da thua!\n");
     }
     else if (n == 3 && bot == 2 || n == 1 && bot == 3 || n == 2 && bot == 1 )
     {
-        printf("Ban da thang!");
+        printf("Ban da thang!\n");
     }
     return 0;
 }
