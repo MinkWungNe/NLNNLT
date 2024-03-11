@@ -48,6 +48,7 @@ int Ketqua()
     {
         printf("Ban da thang!");
     }
+    return 0;
 }
 
 int main()
