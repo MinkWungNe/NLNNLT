@@ -5,17 +5,19 @@ using namespace std;
 int main()
 {
     int a, b;
+    string Ketqua;
     cout << "Nhap a: ";
     cin >> a;
     cout << "Nhap b: ";
     cin >> b;
     if (a % b == 0)
     {
-        printf("Ket qua: a chia het cho b");
+        Ketqua = "Ket qua: a chia het cho b";
     }
     else
     {
-        printf("Ket qua: a khong chia het cho b");
+        Ketqua = "Ket qua: a khong chia het cho b";
     }
+    cout << Ketqua;
     return 0;
 }
