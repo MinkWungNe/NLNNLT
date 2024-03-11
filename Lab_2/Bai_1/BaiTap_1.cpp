@@ -19,20 +19,3 @@ int main()
     }
     return 0;
 }
-
-// Sửa bài
-
-bool kiemtrachiahet (int a,int b)
-{
-    bool chiahetKQ = a % b == 0 ? a + "chia het cho" + b:a +"false"+ b;
-    return chiahetKQ;
-}
-
-int main()
-{
-    int a;
-    int b;
-    cin >> a >> b;
-    cout << kiemtrachiahet(a, b);
-    return 0;
-}
