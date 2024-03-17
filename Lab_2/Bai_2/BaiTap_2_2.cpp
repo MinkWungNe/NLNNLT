@@ -1,66 +1,58 @@
+//Cho 2 người chơi kéo bao búa. Viết chương trình kiểm tra kết quả trò chơi.
 #include <iostream>
 using namespace std;
 
-int n;
-int bot = rand() % 3 + 1;
+int n1,n2;
+string player1 = "Nguoi choi 1 ";
+string player2 = "Nguoi choi 2 ";
 
-void PlayerChoose()
+
+void PlayerChoose(int player, string playernum)
 {
-    if (n == 1)
+    if (player == 1)
     {
-        printf("Ban chon Keo\n");
+        cout << playernum << "chon Keo" << endl;
     }
-    else if (n == 2)
+    else if (player == 2)
     {
-        printf("Ban chon Bua\n");
+        cout << playernum << "chon Bua"<< endl;
     }
     else
     {
-        printf("Ban chon Bao\n");
+        cout << playernum << "chon Bao"<< endl;
     }
 }
-void BotChoose()
-{
-    if (bot == 1)
-    {
-        printf("BOT chon Keo\n");
-    }
-    else if (bot == 2)
-    {
-        printf("BOT chon Bua\n");
-    }
-    else
-    {
-        printf("BOT chon Bao\n");
-    }
-}   
 int Ketqua()
 {
-    if (n == bot)
+    if (n1 == n2)
     {
-        printf("Ban da hoa!\n");
+        cout <<"Ban da hoa!" << endl;
     }
-    else if (n == 1 && bot == 2 || n == 2 && bot == 3 || n == 3 && bot == 1)
+    else if (n1 == 1 && n2 == 2 || n1 == 2 && n2 == 3 || n1 == 3 && n2 == 1)
     {
-        printf("Ban da thua!\n");
+        cout << "Nguoi_Choi_1 Thang!" << endl;
     }
-    else if (n == 3 && bot == 2 || n == 1 && bot == 3 || n == 2 && bot == 1 )
+    else if (n1 == 3 && n2 == 2 || n1 == 1 && n2 == 3 || n1 == 2 && n2 == 1 )
     {
-        printf("Ban da thang!\n");
+        cout << "Nguoi_Choi_2 Thang!" << endl;
     }
     return 0;
 }
 
 int main()
 {
-    cout << "Moi ban chon:\n" 
-    << "1.Keo\n" 
-    << "2.Bua\n" 
-    << "3.Bao\n";
-    cin >> n;
-
-    PlayerChoose();
-    BotChoose();
+    cout << "Moi Nguoi_Choi_1 chon:" << endl
+    << "1.Keo" << endl
+    << "2.Bua" << endl
+    << "3.Bao" << endl;
+    cin >> n1;
+    PlayerChoose(n1,player1);
+    cout << "Moi Nguoi_Choi_2 chon:" << endl
+    << "1.Keo" << endl
+    << "2.Bua" << endl
+    << "3.Bao" << endl;
+    cin >> n2;
+    PlayerChoose(n2,player2);
     Ketqua();
     return 0;  
 }

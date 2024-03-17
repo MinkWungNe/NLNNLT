@@ -1,3 +1,4 @@
+//So sánh diện tích A1 của một hình vuông có cạnh E với diện tích của một hình tròn có bán kính R
 #include <iostream>
 using namespace std;
 

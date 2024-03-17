@@ -1,3 +1,4 @@
+//So sánh tuổi của hai người có ngày tháng năm sinh lần lượt là D1, M1 Y1 (đối với người thứ nhất) và D2, M2, Y2 (đối với người thứ hai)
 #include <iostream>
 using namespace std;
 
