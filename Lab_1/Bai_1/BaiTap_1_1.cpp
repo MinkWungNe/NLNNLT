@@ -1,3 +1,4 @@
+//Tính tổng d của 3 số nguyên a,b,c
 #include <iostream>
 using namespace std;
 
