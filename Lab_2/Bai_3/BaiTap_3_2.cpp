@@ -1,3 +1,4 @@
+//Nhập vào phương trình bậc hai. Kiểm tra phương trình có mấy nghiệm (không tính nghiệm phức).
 #include <iostream>
 using namespace std;
 

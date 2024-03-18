@@ -1,3 +1,4 @@
+//Hãy viết 1 chương trình hoán vị 2 số nguyên dương không sử dụng biến trung gian.
 #include <iostream>
 using namespace std;
 
