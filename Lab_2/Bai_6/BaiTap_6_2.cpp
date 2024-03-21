@@ -7,7 +7,31 @@ Lưu ý: Dữ liệu đầu vào luôn hợp lệ (không cần kiểm tra).
 #include <iostream>
 using namespace std;
 
+    int D = 31;
+    int M = 12;
+    int Y = 1999;
+    int D1,M1,Y1;
+
+bool DateMax(int day, int month, int year)
+{
+    return(1901 <= year <= 1999) && (day <= 31) && (month <= 12);
+}
+
 int main()
 {
-    
+    cout << "Moi nhap ngay sinh: ";
+    cin >> D1 >> M1 >> Y1;
+    if(DateMax(D1,M1,Y1))
+    {
+        int Y2 = Y - Y1;
+        cout << "Ban co " << Y2 << " lan sinh nhat!" << endl;
+        return 0;
+    }
+    else
+    {
+        cout << "Nam sinh khong hop le!"<< endl;
+        return 1;
+    }
+
+
 }
