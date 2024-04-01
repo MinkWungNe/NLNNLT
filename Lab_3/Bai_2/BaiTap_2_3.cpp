@@ -21,7 +21,7 @@ int main()
         }
         
     }
-
+    //OUTPUT ket qua
     if (count == 0)
     {
         cout << n << " la SO NGUYEN TO!" << endl;
