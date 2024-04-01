@@ -14,15 +14,14 @@ void chuyen_vi_ma_tran(int matran[MAX][MAX], int hang, int cot)
     }
 
     cout  << "Ma tran sau chuyen vi: " << endl;
-    for (int y = 0; y < cot; y++)
+    for (int y = 0; y < cot; ++y)
     {
-        for (int x = 0; x < hang ; x++)
+        for (int x = 0; x < hang ; ++x)
         {
-            cout << chuyen_vi << " ";
+            cout << chuyen_vi[y][x] << " ";
         }
         cout << endl;
     }
-    cout << endl;
 }
 
 int main()
@@ -35,11 +34,11 @@ int main()
 
     int matran[MAX][MAX];
     cout << "Nhap cac phan tu cua ma tran: " << endl;
-    for (int x = 0; x < hang ; x++)
+    for (int x = 0; x < hang ; ++x)
     {
-        for (int y = 0; y < cot; y++)
+        for (int y = 0; y < cot; ++y)
         {
-            cout << "hang " << x + 1 << " cot "<< y + 1 << endl;
+            cout << "Hang " << x + 1 << " cot " << y + 1 << endl;
             cin >> matran[x][y];
         }
     }
