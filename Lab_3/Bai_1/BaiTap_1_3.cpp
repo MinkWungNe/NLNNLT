@@ -10,12 +10,12 @@ int main()
     cout << "Nhap n: ";
     cin >> n;
     //int KetquaLuythua = pow(a,n);
-    int KetquaLuythua;
+    int S = 1;
     for (int i = 0; i < n ; i++)
     {
-        int KetquaLuythua = a*i;
+        S = a*S;
     }
-    cout << "Ket qua: " << KetquaLuythua <<endl;
+    cout << "Ket qua: " << S <<endl;
     return 0;
 }
 
