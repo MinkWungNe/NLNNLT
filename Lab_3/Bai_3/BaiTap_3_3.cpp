@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n;
+    unsigned int n;
     float S = 0.0;
     cout << "Tinh tong S= 1 - 1/1*2 + 1/2*3 +...+ (-1)^n/n*(n+1)" << endl;
     cout << "Nhap n: ";

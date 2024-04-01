@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n; int count = 0;
+    unsigned int n; int count = 0;
     cout << "Nhap n: ";
     cin >> n;
     if(n < 2)
