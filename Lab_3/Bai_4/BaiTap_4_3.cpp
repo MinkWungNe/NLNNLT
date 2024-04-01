@@ -1,3 +1,10 @@
+/*******************************************************************************************************************************************************
+*   Sử dụng cấu trúc lựa chọn và cấu trúc lặp đã học thực hiện các yêu cầu sau:                                                                        *
+*                                                                                                                                                      *
+*   a) Cho phép người dùng nhập vào lần lượt từng số thực. Việc nhập dữ liệu của người dùng sẽ kết thúc khi người dùng nhập vào số 0.                  *
+*                                                                                                                                                      *
+*   b) Hãy cho biết người dùng đã nhập vào bao nhiêu số thực (kể cả số 0) và số thực nhỏ nhất trong những số thực do người dùng nhập vào (kể cả số 0). *
+********************************************************************************************************************************************************/
 #include <iostream>
 using namespace std;
 
